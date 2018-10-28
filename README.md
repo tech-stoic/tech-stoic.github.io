@@ -1,1 +1,0 @@
-# tech-stoic.github.io
