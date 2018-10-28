@@ -1,1 +1,1 @@
-# astronucleus.github.io
+# tech-stoic.github.io
