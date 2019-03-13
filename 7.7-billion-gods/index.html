@@ -1,0 +1,133 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/component---src-templates-blog-post-js.8dd78a31e5b00ab14de5.css">.token.block-comment,.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#7d8b99}.token.punctuation{color:#5f6364}.token.boolean,.token.constant,.token.deleted,.token.function-name,.token.number,.token.property,.token.symbol,.token.tag{color:#c92c2c}.token.attr-name,.token.builtin,.token.char,.token.function,.token.inserted,.token.selector,.token.string{color:#2f9c0a}.token.entity,.token.operator,.token.url,.token.variable{color:#a67f59}.token.atrule,.token.attr-value,.token.class-name,.token.keyword{color:#1990b8}.token.important,.token.regex{color:#e90}.language-css .token.string,.style .token.string{color:#a67f59}.token.important{font-weight:400}.token.bold{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.namespace{opacity:.7}.token.cr:before,.token.lf:before,.token.tab:not(:empty):before{color:#e0d7d1}pre[class*=language-].line-numbers{padding-left:0}pre[class*=language-].line-numbers code{padding-left:3.8em}pre[class*=language-].line-numbers .line-numbers-rows{left:0}pre[class*=language-][data-line]{padding-top:0;padding-bottom:0;padding-left:0}pre[data-line] code{position:relative;padding-left:4em}pre .line-highlight{margin-top:0}</style><meta name="generator" content="Gatsby 2.0.91"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:125%/1.4 'Alegreya',sans-serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.8);font-family:'Alegreya',sans-serif;font-weight:400;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.05rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.05rem;color:hsla(0,0%,0%,0.75);font-family:'Alegreya Sans',sans-serif;font-weight:500;text-rendering:optimizeLegibility;font-size:2rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.05rem;color:hsla(0,0%,0%,0.775);font-family:'Alegreya Sans',sans-serif;font-weight:500;text-rendering:optimizeLegibility;font-size:1.51572rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.05rem;color:hsla(0,0%,0%,0.8);font-family:'Alegreya Sans',sans-serif;font-weight:500;text-rendering:optimizeLegibility;font-size:1.31951rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.05rem;color:hsla(0,0%,0%,0.9);font-family:'Alegreya Sans',sans-serif;font-weight:500;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.05rem;color:hsla(0,0%,0%,0.9);font-family:'Alegreya Sans',sans-serif;font-weight:500;text-rendering:optimizeLegibility;font-size:0.87055rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.05rem;color:hsla(0,0%,0%,0.9);font-family:'Alegreya Sans',sans-serif;font-weight:500;text-rendering:optimizeLegibility;font-size:0.81225rem;line-height:1.1;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.05rem;}ul{margin-left:1.4rem;margin-right:0;margin-top:0.7rem;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.05rem;list-style-position:outside;list-style-image:none;}ol{margin-left:1.4rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.05rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.05rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.05rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.05rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.05rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.05rem;font-size:0.85rem;line-height:1.22;background:hsla(0,0%,0%,0.04);border-radius:3px;overflow:auto;word-wrap:normal;padding:1.05rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.05rem;font-size:1rem;line-height:1.4rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.05rem;}blockquote{margin-left:0;margin-right:1.4rem;margin-top:0;padding-bottom:0;padding-left:0.9625rem;padding-right:0;padding-top:0;margin-bottom:1.05rem;color:hsla(0,0%,0%,0.65);font-style:italic;border-left:0.4375rem solid hsla(0,0%,0%,0.5);}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.05rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.05rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.05rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.05rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.05rem;}b{font-weight:700;}strong{font-weight:700;}dt{font-weight:700;}th{font-weight:700;}li{margin-bottom:calc(1.05rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.4rem;margin-bottom:calc(1.05rem / 2);margin-top:calc(1.05rem / 2);}li > ul{margin-left:1.4rem;margin-bottom:calc(1.05rem / 2);margin-top:calc(1.05rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:0.7rem;}code{font-size:0.85rem;line-height:1.4rem;}kbd{font-size:0.85rem;line-height:1.4rem;}samp{font-size:0.85rem;line-height:1.4rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:0.93333rem;padding-right:0.93333rem;padding-top:0.7rem;padding-bottom:calc(0.7rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}tt,code{background-color:hsla(0,0%,0%,0.04);border-radius:3px;font-family:"SFMono-Regular", Consolas,"Roboto Mono","Droid Sans Mono","Liberation Mono",Menlo,Courier,monospace;padding:0;padding-top:0.2em;padding-bottom:0.2em;font-size:85%;}pre code{background:none;line-height:1.42;}code:before,code:after,tt:before,tt:after{letter-spacing:-0.2em;content:" ";}pre code:before,pre code:after,pre tt:before,pre tt:after{content:none;}h1,h2,h3,h4,h5,h6{line-height:1;}h1,h2,h3,h4{line-height:1;margin-top:1.4rem;margin-bottom:0.7rem;}h4,h5,h6{text-transformation:uppercase;}a{color:hsl(230,55%,58%);text-decoration:none;}a:hover,a:active{box-shadow:0 1px 0 0 currentColor;}blockquote > :last-child{margin-bottom:0;}@media only screen and (max-width:480px){html{font-size:112.5%;}blockquote{border-left:0.2625rem solid hsla(0,0%,0%,0.5);margin-left:-1.05rem;margin-right:0;padding-left:0.7875rem;}}blockquote > h1, blockquote > h2, blockquote > h3, blockquote > h4{margin-top:0;}p code{font-size:75%;}</style><link href="//fonts.googleapis.com/css?family=Alegreya+Sans:500|Alegreya:400,400i,700,700i" rel="stylesheet" type="text/css"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="white"/><title data-react-helmet="true">tech-stoic | 7.7 billion Gods..</title><meta data-react-helmet="true" name="description" content="Kevin Richardson’s  bond with animals always leave me speechless. He created a sanctuary for lions and hyenas in South Africa and creates a…"/><link as="script" rel="preload" href="/component---src-templates-blog-post-js-f3a830c4b312596e2087.js"/><link as="script" rel="preload" href="/0-5fc07f49f20f867dfbb5.js"/><link as="script" rel="preload" href="/app-ac33fd4f569433a83f21.js"/><link as="script" rel="preload" href="/webpack-runtime-4cea8232f09ba0a024c8.js"/><link as="fetch" rel="preload" href="/static/d/275/path---7-7-billion-gods-78-f-f7e-eGntJvZys1iDcjSy0MWHPg3nNs.json" crossOrigin="use-credentials"/></head><body><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group"><div style="padding:2.1rem 1.05rem;max-width:30.8rem;margin:0 auto"><div><a style="text-decoration:none;box-shadow:none;color:inherit" href="/"><h3 style="margin-top:0">tech stoic</h3></a></div><h1>7.7 billion Gods..</h1><div><p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/fef22c62d4c9c54e5ae2e09718d8676e/cf2b7/kevinrichardson.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 115.11789181692093%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAXABQDASIAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAMEAQIF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB71abQlYENQLQP//EABsQAAIDAAMAAAAAAAAAAAAAAAECAxESACEi/9oACAEBAAEFAuNZK3knuSsowdSPRWRjA2k//8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAGxAAAwACAwAAAAAAAAAAAAAAAAERAjEQIXH/2gAIAQEABj8CJXj4dkKVcPF6G3un/8QAGhAAAwADAQAAAAAAAAAAAAAAAAERITFRQf/aAAgBAQABPyFuRQZZlJvsxLr70WS5zkzRZ0FqGHLvrQ70LheH/9oADAMBAAIAAwAAABBgBwD/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/EB//xAAcEAEAAgMBAQEAAAAAAAAAAAABABEhMUFRcZH/2gAIAQEAAT8QdBZZd4NqM2xseTzzzSvqpRPxcblks2q4VmWR8IlInGIicqheotnsjqwXzyB2C8AcPyp//9k='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="kevinrichardson"
+        title=""
+        src="/static/fef22c62d4c9c54e5ae2e09718d8676e/f8fb9/kevinrichardson.jpg"
+        srcset="/static/fef22c62d4c9c54e5ae2e09718d8676e/e8976/kevinrichardson.jpg 148w,
+/static/fef22c62d4c9c54e5ae2e09718d8676e/63df2/kevinrichardson.jpg 295w,
+/static/fef22c62d4c9c54e5ae2e09718d8676e/f8fb9/kevinrichardson.jpg 590w,
+/static/fef22c62d4c9c54e5ae2e09718d8676e/cf2b7/kevinrichardson.jpg 721w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p><a href="https://www.youtube.com/channel/UC_NS4MiiHAFo3CYI7fRSLtQ">Kevin Richardson’s</a> bond with animals always leave me speechless. He created a sanctuary for lions and hyenas in South Africa and creates a unique position for us all human beings - co-exist with wild animals in their natural habitat. </p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/22cbc4648c53e2accaef144895b9dfb1/a5ccc/alexhonnold.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 103%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAVABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIDBAX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH2V4HSzFQGoP/EABkQAAMBAQEAAAAAAAAAAAAAAAABAhARMv/aAAgBAQABBQJ++YyaVUMU5//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABsQAAEEAwAAAAAAAAAAAAAAAAEAAhARIEFx/9oACAEBAAY/AuqpLdjH/8QAHRAAAwACAgMAAAAAAAAAAAAAAAERIUExYVGB8f/aAAgBAQABPyFJhpfZ2ZFEohau9FELZNHH0bMEZaw/KEof/9oADAMBAAIAAwAAABCgxzz/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/EB//xAAeEAEBAAICAgMAAAAAAAAAAAABEQAhMUFhcVGhsf/aAAgBAQABPxBVpCyfDX4/WbpARuuzFsCGU4gNriPvHQ0pEp6fOsBoU51JhnQiLG5GCzXQvvBENHgz/9k='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="alexhonnold"
+        title=""
+        src="/static/22cbc4648c53e2accaef144895b9dfb1/f8fb9/alexhonnold.jpg"
+        srcset="/static/22cbc4648c53e2accaef144895b9dfb1/e8976/alexhonnold.jpg 148w,
+/static/22cbc4648c53e2accaef144895b9dfb1/63df2/alexhonnold.jpg 295w,
+/static/22cbc4648c53e2accaef144895b9dfb1/f8fb9/alexhonnold.jpg 590w,
+/static/22cbc4648c53e2accaef144895b9dfb1/85e3d/alexhonnold.jpg 885w,
+/static/22cbc4648c53e2accaef144895b9dfb1/a5ccc/alexhonnold.jpg 900w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p>Alex Honnold <a href="https://www.youtube.com/watch?v=FRGF77fBAeM">ascent in El Capitan</a> is beyond comprehension. He climbed a 2300 meter vertical <a href="https://www.nationalgeographic.com/magazine/2019/02/alex-honnold-made-ultimate-climb-el-capitan-without-rope/">mountain</a> without any rope or tools - just bare hands in under four hours..an inspiration for focus, courage and discipline!</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/b353bc2d06d392f2984e122def6740fa/a1d65/elonmuskspacex.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 78.21052631578948%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAQABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUBAwT/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAF6sZ5SC8P/xAAaEAACAwEBAAAAAAAAAAAAAAABAgADERIT/9oACAEBAAEFAmPIaz0iPikbK61MFSCf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAHBAAAQMFAAAAAAAAAAAAAAAAAAECERAhMUFh/9oACAEBAAY/ApU2kVdbhg//xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhMUFR/9oACAEBAAE/IRXkStfRp5H+m+koI6M1ld9dCDUT/9oADAMBAAIAAwAAABCjD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EAB8QAQACAgAHAAAAAAAAAAAAAAEAETFBIVFhcZGhwf/aAAgBAQABPxCyym2oROniBdL0bxnrKpaLIpj5D1sJzIozySyYF+fUBjDuz//Z'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="elonmuskspacex"
+        title=""
+        src="/static/b353bc2d06d392f2984e122def6740fa/f8fb9/elonmuskspacex.jpg"
+        srcset="/static/b353bc2d06d392f2984e122def6740fa/e8976/elonmuskspacex.jpg 148w,
+/static/b353bc2d06d392f2984e122def6740fa/63df2/elonmuskspacex.jpg 295w,
+/static/b353bc2d06d392f2984e122def6740fa/f8fb9/elonmuskspacex.jpg 590w,
+/static/b353bc2d06d392f2984e122def6740fa/85e3d/elonmuskspacex.jpg 885w,
+/static/b353bc2d06d392f2984e122def6740fa/a1d65/elonmuskspacex.jpg 950w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p>Elon Musk combines all of the world’s most cutting edge technology available to solve the burdens of the future - <a href="https://www.neuralink.com/">AI</a>, <a href="https://www.tesla.com/">Energy Infrastructure</a> and <a href="https://www.spacex.com/">Space Exploration</a>.</p>
+<p>I try to observe these types of people a lot. Talented individuals that either create or break the rules. Extraordinary ones who try to push the boundaries of how we humans operate. They exist and are alive in our lifetime. They give lightning bolts of energy &#x26; excitement whenever I see their accomplishments. Makes me proud that we are of all of the same genus homo. </p>
+<p>But..tremendous hurt, pain and suffering are still happening.</p>
+<ul>
+<li>ISIS still <a href="https://www.google.com/search?rlz=1C1CHBF_enPH738PH738&#x26;ei=S1iGXOP0Jv7Tz7sP2-O70Ac&#x26;q=ISIS+rape+women+in+syria+and+iraq+news&#x26;oq=ISIS+rape+women+in+syria+and+iraq+news&#x26;gs_l=psy-ab.3...2297.3687..4461...0.0..0.420.1513.2-3j0j2......0....1..gws-wiz.l_AtamrdZmQ">rape women</a> in Syria and Iraq…</li>
+<li>Brazil’s Bolsonaro is creating legilastion that will <a href="https://www.google.com/search?rlz=1C1CHBF_enPH738PH738&#x26;ei=cViGXJueMY3az7sPlOSO6AM&#x26;q=bolsonaro+legislation+on+amazon+forest&#x26;oq=Bolsonaro+legislation+on+amazon&#x26;gs_l=psy-ab.1.0.33i22i29i30l2.141111.149944..150969...0.0..1.459.8067.0j5j19j4j3....2..0....1..gws-wiz.......35i39j0i131j0j0i67j0i131i20i263j0i131i67j0i20i263j0i22i30.1Azdx7anl1g">destroy the Amazon Rainforest</a>…</li>
+<li>Venezuela is <a href="https://en.wikipedia.org/wiki/Corruption_in_Venezuela">disintegrating</a> because of its corrupt government…</li>
+</ul>
+<p>There are people in this world that continue to push evil and no matter how much good we all accomplish including the likes of the Kevin, Alex and Elon - we won’t be able to erase their dark impact. </p>
+<p>I never see ourselves as powerless whenever I reflect how far can our intellect shape the world.  But this power is a double edged blade. It cuts when one doesn’t know how to weild his mind… part of our human nature is built to destroy. </p>
+<p>Whenever one creates crimes against humanity, we tend to remember it like the songs we sing in the halls of the churches. We are like Gods that either choose to create or destroy with the gifts bestowed with us - to the detriment or benefit of mankind and nature. </p>
+<p>Let us not forget that individual decisions - how ever small it may be shapes us today and the future of generations to come. It is now becoming more important for us to be mindful of our actions as climate changes is knocking at our doorsteps… more on that on the <a href="https://tech-stoic.github.io/uninhabitable-earth-david-wallace-wells/">next post</a>.	</p></div><em style="font-size:0.87055rem;line-height:1.4rem;display:block;margin-bottom:1.4rem">Tagged with <span><a href="/tags/kevin-richardson/">Kevin Richardson</a><span> | </span></span><span><a href="/tags/alex-honnold/">Alex Honnold</a><span> | </span></span><span><a href="/tags/elon-musk/">Elon Musk</a><span> | </span></span><span><a href="/tags/talking-homosapiens/">talking-homosapiens</a><span> | </span></span><span><a href="/tags/talking-evil/">talking-evil</a><span> | </span></span><span><a href="/tags/creating-art/">creating-art</a><span> | </span></span><span><a href="/tags/blog/">blog</a></span></em><p style="font-size:0.87055rem;line-height:1.4rem;display:block;margin-bottom:1.4rem">Posted <!-- -->March 11, 2019</p><hr style="margin-bottom:1.4rem"/><p style="margin-bottom:0"><img src="/static/profile-5aca6bf7c88a0cf6d1831acd76e422f5.png" style="border-radius:100%;float:left;margin-right:0.35rem;margin-bottom:0;width:2.8rem;height:2.8rem"/><a href="https://tech-stoic.github.io">back to homepage</a></p></div></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-774017-3', 'auto', {});
+      
+      
+      
+      }
+      </script><script id="gatsby-script-loader">/*<![CDATA[*/window.page={"componentChunkName":"component---src-templates-blog-post-js","jsonName":"7-7-billion-gods-78f","path":"/7.7-billion-gods/"};window.dataPath="275/path---7-7-billion-gods-78-f-f7e-eGntJvZys1iDcjSy0MWHPg3nNs";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-ac33fd4f569433a83f21.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-b2ccb10a491b766cf1f7.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js.8dd78a31e5b00ab14de5.css","/component---src-templates-blog-post-js-f3a830c4b312596e2087.js"],"component---src-templates-tag-page-js":["/component---src-templates-tag-page-js.ef4060126be8e09996f8.css","/component---src-templates-tag-page-js-1e7c888a77c21a5b6a50.js"],"component---src-pages-404-js":["/component---src-pages-404-js-b7fd36847414bceaa4db.js"],"component---src-pages-index-js":["/component---src-pages-index-js.ef4060126be8e09996f8.css","/component---src-pages-index-js-3bd1d28367fb68dbb543.js"],"component---src-pages-tags-js":["/component---src-pages-tags-js.8dd78a31e5b00ab14de5.css","/component---src-pages-tags-js-cad80b39913171b977d8.js"],"pages-manifest":["/pages-manifest-3b621441d6d22b399a0d.js"]};/*]]>*/</script><script src="/webpack-runtime-4cea8232f09ba0a024c8.js" async=""></script><script src="/app-ac33fd4f569433a83f21.js" async=""></script><script src="/0-5fc07f49f20f867dfbb5.js" async=""></script><script src="/component---src-templates-blog-post-js-f3a830c4b312596e2087.js" async=""></script></body></html>
