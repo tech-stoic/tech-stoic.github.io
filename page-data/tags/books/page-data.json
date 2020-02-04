@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-tag-page-js","path":"/tags/books/","result":{"data":{"site":{"id":"Site","siteMetadata":{"title":"tech-stoic"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"id":"74fe5023-7478-5444-a36b-cb23504f0f6e","fields":{"slug":"/resources/"},"frontmatter":{"title":"What fits in my smartphone.."}}}]}},"pageContext":{"tag":"books"}}}
